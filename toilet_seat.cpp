@@ -1,3 +1,4 @@
+// Toilet Seat
 // https://open.kattis.com/problems/toilet
 // 24/07/2025
 
