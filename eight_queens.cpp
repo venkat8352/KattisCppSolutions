@@ -1,6 +1,6 @@
 // Eight Queens
-// 24/07/2025
 // https://open.kattis.com/problems/8queens
+// 24/07/2025
 
 #include <bits/stdc++.h>
 using namespace std;
