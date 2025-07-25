@@ -55,3 +55,45 @@ int main() {
 
   return 0;
 }
+
+// ALTERNATE SOLUTION: 
+//  // Bus Numbers
+//  // https://open.kattis.com/problems/busnumbers
+//  // 25/07/2025
+//  
+//  #include <bits/stdc++.h>
+//  using namespace std;
+//  int main() {
+//    ios::sync_with_stdio(0);
+//    cin.tie(0);
+//    cout.tie(0);
+//  
+//    int n;
+//    cin >> n;
+//    vector <int> b(n);
+//    for(int i = 0; i < n; i++) 
+//      cin >> b[i];
+//  
+//    sort(b.begin(), b.end());
+//  
+//    for(int i = 0; i < n;  ) {
+//      int j = i;
+//      while(((j+1)<n) && (b[j+1] == b[j]+1)){
+//        j++;
+//      }
+//      if((j-i+1) > 2) {
+//        cout << b[i] << "-" << b[j] << " ";
+//      }
+//      else {
+//        if(i==j){
+//          cout << b[i] << " ";
+//        }
+//        else {
+//          cout << b[i] << " " << b[j] << " ";
+//        }
+//      }
+//      i = j+1;
+//    }
+//  
+//    return 0;
+//  }
