@@ -1,2 +1,2 @@
 # KattisCppSolutions
-solutions to cpp problems in https://open.kattis.com/ 
+C++ solutions for problems in https://open.kattis.com/
